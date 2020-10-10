@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
-
+:root{
+	--space: 500px;
+}
 .frame {
 	position: absolute;
 	top: 250px;
@@ -59,7 +61,18 @@
 	color: #fff;
 	font-family: Helvetica;
 }
-
+.square{
+	height: var(--space);
+	width:700px;
+	background-color: #fff;
+	margin: auto;
+}
+.forAudio{
+	height: 60px;
+	width: 900px;
+	background-color: rgb(188, 192, 183);
+	margin: auto;
+}
 h1 {
 	font-size: 16px;
 	font-weight: 300;

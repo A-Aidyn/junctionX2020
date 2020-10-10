@@ -1,0 +1,42 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}">
+<!--
+<link rel="stylesheet"  href="C:\Users\asus\Documents\GitHub\junctionX2020\musicConv\main\static\main\style.css">
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="{% static 'main/dropHandler.js' %}"></script>
+    <!--<script src="C:\Users\asus\Documents\GitHub\junctionX2020\musicConv\main\static\main\dropHandler.js"></script>-->
+</head>
+<body class="grad">
+    <div>
+        <h2 class="tutorial">Music Sheet2:</h2>
+    </div>
+    
+    <div class="square">
+        <p class=tut_text>Here!</p>
+    </div>
+    
+    <p class=tut_text>
+        Piano:
+    </p>
+    <audio controls>
+        <source src="{% static 'main/sound.mp3' %}">
+    </audio>
+    <div class="forAudio">
+        
+    </div>
+    <p class=tut_text>
+        Guitar:
+    </p>
+    
+    <div>
+        
+    </div>
+    <!-- original pen: https://codepen.io/roydigerhund/pen/ZQdbeN  -->
+    <!-- NO JS ADDED YET -->
+     
+</body>
+</html>
