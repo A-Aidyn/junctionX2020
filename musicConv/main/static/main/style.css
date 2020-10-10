@@ -2,7 +2,7 @@
 
 .frame {
 	position: absolute;
-	top: 50%;
+	top: 250px;
 	left: 50%;
 	width: 400px;
 	height: 400px;
@@ -16,7 +16,7 @@
 
 .center {
 	position: absolute;
-	top: 50%;
+	top: 250px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 300px;
@@ -43,8 +43,18 @@
 }
 .tutorial{
 	text-align: center;
-	font-size: 40px;
+	font-size: 35px;
 	width: 500px;
+	height: 10px;
+	margin: 30px auto;
+	color: #fff;
+	font-family: Helvetica;
+}
+.tut_text{
+	text-align: center;
+	font-size: 15px;
+	width: 500px;
+	height: 10px;
 	margin: 30px auto;
 	color: #fff;
 	font-family: Helvetica;
