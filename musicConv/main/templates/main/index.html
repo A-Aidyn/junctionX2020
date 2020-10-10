@@ -4,21 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="{% static 'main/dropHandler.js' %}"></script>
 </head>
 <body>
-    <div class="frame">
+    <div class="frame" ondragover="dragOverHandler(event)">
         <div class="center">
             <div class="title">
                 <h1>Drop file to upload</h1>
             </div>
 
-            <div class="dropzone">
-                <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
-                <input type="file" class="upload-input" />
-            </div>
-
-            <button type="button" class="btn" name="uploadbutton"> and Upload file</button>
-
+            <form method="post" action="/main/" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="dropzone">
+                    <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
+                    {{ form.docfile }}
+<!--                    <input type="file" class="upload-input" accept=".mp3,audio/*" onchange="selectedFileHandler()"/>-->
+                </div>
+                <input type="submit" class="btn" name="uploadbutton"/>
+            </form>
         </div>
     </div>
     <!-- original pen: https://codepen.io/roydigerhund/pen/ZQdbeN  -->
