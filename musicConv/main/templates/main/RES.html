@@ -1,5 +1,5 @@
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'main/style2.css' %}">
 <!--
 <link rel="stylesheet"  href="C:\Users\asus\Documents\GitHub\junctionX2020\musicConv\main\static\main\style.css">
 -->
@@ -18,21 +18,124 @@
     <div class="square">
         <p class=tut_text>Here!</p>
     </div>
-    
+
+    <div class="container-audio">
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+        <div class="colum1">
+            <div class="row"></div>
+        </div>
+    </div>
+
     <p class=tut_text>
         Piano:
     </p>
-    <audio controls>
-        <source src="{% static 'main/sound.mp3' %}">
-    </audio>
-    <div class="forAudio">
-        
+
+    <div class="container-audio">
+        <audio controls  loop>
+                   <source src="{% static 'main/Pirates_piano.mp3' %}" type="audio/ogg">
+                   Your browser dose not Support the audio Tag
+               </audio>
     </div>
+
+
+<!--    <div class="forAudio">-->
+<!--        <audio controls>-->
+<!--            <source src="{% static 'main/sound.mp3' %}">-->
+<!--        </audio>-->
+<!--    </div>-->
     <p class=tut_text>
         Guitar:
     </p>
-    
-    <div>
+
+    <div class="container-audio">
+        <audio controls  loop>
+                   <source src="{% static 'main/pirats_guitar.mp3' %}" type="audio/ogg">
+                   Your browser dose not Support the audio Tag
+               </audio>
+    </div>
+
+    <p class=tut_text>
+        Violin:
+    </p>
+
+    <div class="container-audio">
+        <audio controls  loop>
+                   <source src="{% static 'main/pirats_violin.mp3' %}" type="audio/ogg">
+                   Your browser dose not Support the audio Tag
+               </audio>
+    </div>
+
+    <!--    <div class="forAudio">-->
+<!--        <audio controls>-->
+<!--            <source src="{% static 'main/sound.mp3' %}">-->
+<!--        </audio>-->
+<!--    </div>-->
+<!--    <div>-->
         
     </div>
     <!-- original pen: https://codepen.io/roydigerhund/pen/ZQdbeN  -->

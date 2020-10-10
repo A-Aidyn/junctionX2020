@@ -8,11 +8,13 @@ from django.template import loader
 from .forms import DocumentForm
 from .models import Document
 
+
 def handle_uploaded_file(f):
     print(f.name)
     with open('media/' + f.name, 'wb+') as destination:
         for chunk in f.chunks():
             destination.write(chunk)
+
 
 def index(request):
     # if this is a POST request we need to process the form data
