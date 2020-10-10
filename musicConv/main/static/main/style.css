@@ -62,10 +62,9 @@
 	font-family: Helvetica;
 }
 .square{
-	height: var(--space);
-	width:700px;
-	background-color: #fff;
-	margin: auto;
+	height:557px;
+    width:684px;
+    margin: auto auto;
 }
 .forAudio{
 	height: 60px;
