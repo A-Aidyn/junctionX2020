@@ -6,7 +6,15 @@
     <title>Title</title>
     <script src="{% static 'main/dropHandler.js' %}"></script>
 </head>
-<body>
+<body class="grad">
+    <div>
+        <h2 class="tutorial">JunctionX2020 Seoul</h2>
+        <h2 class="tutorial">team BUDUSHIE ZADRY</h2>
+        <p class="tut_text">
+            Upload .mp3 file and get your music sheet as well with piano and guitar versions of the song!
+        </p>
+    </div>
+    
     <div class="frame" ondragover="dragOverHandler(event)">
         <div class="center">
             <div class="title">
@@ -26,12 +34,6 @@
     </div>
     <!-- original pen: https://codepen.io/roydigerhund/pen/ZQdbeN  -->
     <!-- NO JS ADDED YET -->
-     <style>
-        body {
-	        box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
-	        background: linear-gradient(to top right, darkmagenta 0%, hotpink 100%);
-            /*background-color: plum;*/
-        }
-        </style>
+     
 </body>
 </html>
