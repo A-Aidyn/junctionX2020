@@ -16,6 +16,12 @@
 	font-family: "Open Sans", Helvetica, sans-serif;
 }
 
+body {
+    background: linear-gradient(to left, #7700aa, #8800ff);
+    text-align:center;
+    color:#fff;
+}
+
 .center {
 	position: absolute;
 	top: 250px;
