@@ -68,8 +68,8 @@ body {
 	font-family: Helvetica;
 }
 .square{
-	height: var(--space);
-	width:700px;
+	width:557px;
+    height:auto;
 	background-color: #fff;
 	margin: auto;
 }
