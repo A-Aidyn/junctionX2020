@@ -4,7 +4,7 @@ import shlex
 from midi2audio import FluidSynth
 
 
-name = 'piano'
+name = input_raw('Insert song name')
 sound = AudioSegment.from_mp3("./musicConv/media/" + name + '.mp3')
 sound.export("./musicConv/media/" + name + ".wav", format="wav")
 
